@@ -13,7 +13,7 @@ beforeEach(async () => {
   // Limite externo 2: rede.
   // Nenhum teste pode chamar a API real. Quem precisar de dados da CoinGecko
   // define a resposta com jest.mocked(fetch).mockResolvedValue(...).
-  global.fetch = jest.fn(() =>
+  globalThis.fetch = jest.fn(() =>
     Promise.reject(new Error("Chamadas reais de rede não são permitidas nos testes")),
   );
 });

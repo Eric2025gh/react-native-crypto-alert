@@ -32,7 +32,7 @@ export const selectFieldStyles = StyleSheet.create({
     justifyContent: "flex-end",
   },
   modalBackdrop: {
-    ...StyleSheet.absoluteFillObject,
+    ...StyleSheet.absoluteFill,
     backgroundColor: colors.overlayScrim,
   },
   modalSheet: {
