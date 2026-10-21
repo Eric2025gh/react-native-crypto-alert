@@ -1,7 +1,8 @@
 /** @type {import('jest').Config} */
 module.exports = {
-  // Preset do Expo: transforma TS/JSX com Babel, simula os módulos nativos
-  // e já converte os aliases do tsconfig (@components/*, @utils/*...).
+  // Preset do Expo: transforma TS/JSX com Babel, simula os módulos nativos,
+  // já converte os aliases do tsconfig (@components/*, @utils/*...) e define
+  // quais pacotes de node_modules precisam passar pelo Babel.
   preset: "jest-expo",
 
   // Só arquivos *.test.ts(x) dentro de __tests__ são testes.
@@ -13,10 +14,6 @@ module.exports = {
 
   // Zera o histórico de chamadas dos mocks entre um teste e outro.
   clearMocks: true,
-
-  transformIgnorePatterns: [
-    "node_modules/(?!((jest-)?react-native|@react-native(-community)?)|expo(nent)?|@expo(nent)?/.*|@expo-google-fonts/.*|react-navigation|@react-navigation/.*|@sentry/react-native|native-base|react-native-svg)",
-  ],
 
   // Mede a cobertura de todo o src, inclusive arquivos que nenhum teste importa.
   // Ficam de fora só arquivos sem lógica (estilos e tokens de tema).
