@@ -1,0 +1,70 @@
+-------------------------------|---------|----------|---------|---------|-------------------
+File                           | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s 
+-------------------------------|---------|----------|---------|---------|-------------------
+All files                      |   94.51 |    84.07 |      96 |   95.81 |                   
+ app                           |     100 |      100 |     100 |     100 |                   
+  _layout.tsx                  |     100 |      100 |     100 |     100 |                   
+ app/(tabs)                    |     100 |      100 |     100 |     100 |                   
+  _layout.tsx                  |     100 |      100 |     100 |     100 |                   
+  convert.tsx                  |     100 |      100 |     100 |     100 |                   
+  index.tsx                    |     100 |      100 |     100 |     100 |                   
+ app/(tabs)/alerts             |     100 |      100 |     100 |     100 |                   
+  _layout.tsx                  |     100 |      100 |     100 |     100 |                   
+  create.tsx                   |     100 |      100 |     100 |     100 |                   
+  index.tsx                    |     100 |      100 |     100 |     100 |                   
+ components/AlertCard          |     100 |      100 |     100 |     100 |                   
+  AlertCard.tsx                |     100 |      100 |     100 |     100 |                   
+  useAlertCard.ts              |     100 |      100 |     100 |     100 |                   
+ components/ConditionOptionRow |     100 |      100 |     100 |     100 |                   
+  ConditionOptionRow.tsx       |     100 |      100 |     100 |     100 |                   
+  useConditionOptionRow.ts     |     100 |      100 |     100 |     100 |                   
+ components/CryptoCard         |   93.75 |    95.23 |     100 |     100 |                   
+  CryptoCard.tsx               |     100 |      100 |     100 |     100 |                   
+  useCryptoCard.ts             |    92.3 |       75 |     100 |     100 | 21                
+ components/EmptyState         |     100 |       50 |     100 |     100 |                   
+  EmptyState.tsx               |     100 |       50 |     100 |     100 | 26-29             
+  useEmptyState.ts             |     100 |      100 |     100 |     100 |                   
+ components/ErrorState         |     100 |       25 |     100 |     100 |                   
+  ErrorState.tsx               |     100 |       25 |     100 |     100 | 14-27             
+  useErrorState.ts             |     100 |      100 |     100 |     100 |                   
+ components/LoadingState       |     100 |       50 |     100 |     100 |                   
+  LoadingState.tsx             |     100 |      100 |     100 |     100 |                   
+  useLoadingState.ts           |     100 |       50 |     100 |     100 | 6                 
+ components/PrimaryButton      |     100 |     92.3 |     100 |     100 |                   
+  PrimaryButton.tsx            |     100 |      100 |     100 |     100 |                   
+  usePrimaryButton.ts          |     100 |       50 |     100 |     100 | 10                
+ components/ScreenContainer    |     100 |      100 |     100 |     100 |                   
+  ScreenContainer.tsx          |     100 |      100 |     100 |     100 |                   
+ components/ScreenHeader       |      80 |       50 |   66.66 |      80 |                   
+  ScreenHeader.tsx             |     100 |       50 |     100 |     100 | 17                
+  useScreenHeader.ts           |   66.66 |      100 |      50 |   66.66 | 9                 
+ components/SelectField        |   94.44 |    84.61 |      90 |     100 |                   
+  SelectField.tsx              |     100 |    88.88 |     100 |     100 | 84                
+  useSelectField.ts            |    92.3 |       75 |   83.33 |     100 | 27                
+ context/AlertProvider         |   97.22 |       80 |   93.33 |   96.77 |                   
+  AlertProvider.tsx            |     100 |      100 |     100 |     100 |                   
+  useAlertProvider.ts          |   97.05 |       80 |   92.85 |   96.55 | 84                
+ data                          |   93.33 |    83.33 |     100 |   92.85 |                   
+  cryptoData.ts                |   93.33 |    83.33 |     100 |   92.85 | 95                
+ screens/ConversionScreen      |   94.44 |    88.88 |     100 |   93.54 |                   
+  ConversionScreen.tsx         |     100 |      100 |     100 |     100 |                   
+  useConversionScreen.ts       |   94.11 |    85.71 |     100 |    93.1 | 21-22             
+ screens/CreateAlertScreen     |   81.81 |       65 |    87.5 |    86.2 |                   
+  CreateAlertScreen.tsx        |     100 |       50 |     100 |     100 | 42-62             
+  useCreateAlertScreen.ts      |   80.64 |    68.75 |   85.71 |   85.18 | 20,24,26,50       
+ screens/CryptoListScreen      |     100 |    91.66 |     100 |     100 |                   
+  CryptoListScreen.tsx         |     100 |     87.5 |     100 |     100 | 30                
+  useCryptoListScreen.ts       |     100 |      100 |     100 |     100 |                   
+ screens/PriceAlertsScreen     |     100 |      100 |     100 |     100 |                   
+  PriceAlertsScreen.tsx        |     100 |      100 |     100 |     100 |                   
+  usePriceAlertsScreen.ts      |     100 |      100 |     100 |     100 |                   
+ utils                         |     100 |      100 |     100 |     100 |                   
+  index.ts                     |     100 |      100 |     100 |     100 |                   
+-------------------------------|---------|----------|---------|---------|-------------------
+
+=============================== Coverage summary ===============================
+Statements   : 94.51% ( 224/237 )
+Branches     : 84.07% ( 132/157 )
+Functions    : 96% ( 96/100 )
+Lines        : 95.81% ( 206/215 )
+================================================================================
